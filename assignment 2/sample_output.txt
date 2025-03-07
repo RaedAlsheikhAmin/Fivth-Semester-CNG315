@@ -1,0 +1,984 @@
+Test for criteria 1:
+There are 9 unique customers
+List of customers:
+Name: Alice, number of transactions = 4, number of items = 78, total amount paid = 299.22, average amount paid per trans
+action = 74.80
+Name: Bob, number of transactions = 4, number of items = 51, total amount paid = 113.52, average amount paid per transac
+tion = 28.38
+Name: Charlie, number of transactions = 4, number of items = 81, total amount paid = 181.98, average amount paid per tra
+nsaction = 45.50
+Name: David, number of transactions = 4, number of items = 135, total amount paid = 524.76, average amount paid per tran
+saction = 131.19
+Name: Eve, number of transactions = 4, number of items = 123, total amount paid = 267.60, average amount paid per transa
+ction = 66.90
+Name: Ash, number of transactions = 5, number of items = 11, total amount paid = 517.89, average amount paid per transac
+tion = 103.58
+Name: Aissen, number of transactions = 5, number of items = 20, total amount paid = 1354.80, average amount paid per tra
+nsaction = 270.96
+Name: Jack, number of transactions = 5, number of items = 16, total amount paid = 529.84, average amount paid per transa
+ction = 105.97
+Name: Kale, number of transactions = 5, number of items = 16, total amount paid = 854.84, average amount paid per transa
+ction = 170.97
+Enter your hashing criteria:1
+ Alice has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0
+    1
+    2
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Bob has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Charlie has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+David has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Eve has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3          Eve                4        123         267.60
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Ash has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3          Eve                4        123         267.60
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Ash                5         11         517.89
+    8
+    9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+***************************************************************************
+Aissen has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3          Eve                4        123         267.60
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Ash                5         11         517.89
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+***************************************************************************
+Jack has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3          Eve                4        123         267.60
+    4        Alice                4         78         299.22
+    5         Jack                5         16         529.84
+    6
+    7          Ash                5         11         517.89
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+***************************************************************************
+Kale has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3          Eve                4        123         267.60
+    4        Alice                4         78         299.22
+    5         Jack                5         16         529.84
+    6         Kale                5         16         854.84
+    7          Ash                5         11         517.89
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+***************************************************************************
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:3
+Goodbye!
+
+Test for criteria 2:
+There are 9 unique customers
+List of customers:
+Name: Alice, number of transactions = 4, number of items = 78, total amount paid = 299.22, average amount paid per trans
+action = 74.80
+Name: Bob, number of transactions = 4, number of items = 51, total amount paid = 113.52, average amount paid per transac
+tion = 28.38
+Name: Charlie, number of transactions = 4, number of items = 81, total amount paid = 181.98, average amount paid per tra
+nsaction = 45.50
+Name: David, number of transactions = 4, number of items = 135, total amount paid = 524.76, average amount paid per tran
+saction = 131.19
+Name: Eve, number of transactions = 4, number of items = 123, total amount paid = 267.60, average amount paid per transa
+ction = 66.90
+Name: Ash, number of transactions = 5, number of items = 11, total amount paid = 517.89, average amount paid per transac
+tion = 103.58
+Name: Aissen, number of transactions = 5, number of items = 20, total amount paid = 1354.80, average amount paid per tra
+nsaction = 270.96
+Name: Jack, number of transactions = 5, number of items = 16, total amount paid = 529.84, average amount paid per transa
+ction = 105.97
+Name: Kale, number of transactions = 5, number of items = 16, total amount paid = 854.84, average amount paid per transa
+ction = 170.97
+Enter your hashing criteria:2
+ Alice has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0
+    1
+    2
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Bob has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Charlie has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+David has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Eve has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9          Eve                4        123         267.60
+   10
+***************************************************************************
+Ash has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Ash                5         11         517.89
+    8
+    9          Eve                4        123         267.60
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+***************************************************************************
+Aissen has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Ash                5         11         517.89
+    8
+    9          Eve                4        123         267.60
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+***************************************************************************
+Jack has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5         Jack                5         16         529.84
+    6
+    7          Ash                5         11         517.89
+    8
+    9          Eve                4        123         267.60
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+***************************************************************************
+Kale has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1        David                4        135         524.76
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5         Jack                5         16         529.84
+    6         Kale                5         16         854.84
+    7          Ash                5         11         517.89
+    8
+    9          Eve                4        123         267.60
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+***************************************************************************
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:3
+Goodbye!
+
+Test for criteria 3:
+There are 9 unique customers
+List of customers:
+Name: Alice, number of transactions = 4, number of items = 78, total amount paid = 299.22, average amount paid per trans
+action = 74.80
+Name: Bob, number of transactions = 4, number of items = 51, total amount paid = 113.52, average amount paid per transac
+tion = 28.38
+Name: Charlie, number of transactions = 4, number of items = 81, total amount paid = 181.98, average amount paid per tra
+nsaction = 45.50
+Name: David, number of transactions = 4, number of items = 135, total amount paid = 524.76, average amount paid per tran
+saction = 131.19
+Name: Eve, number of transactions = 4, number of items = 123, total amount paid = 267.60, average amount paid per transa
+ction = 66.90
+Name: Ash, number of transactions = 5, number of items = 11, total amount paid = 517.89, average amount paid per transac
+tion = 103.58
+Name: Aissen, number of transactions = 5, number of items = 20, total amount paid = 1354.80, average amount paid per tra
+nsaction = 270.96
+Name: Jack, number of transactions = 5, number of items = 16, total amount paid = 529.84, average amount paid per transa
+ction = 105.97
+Name: Kale, number of transactions = 5, number of items = 16, total amount paid = 854.84, average amount paid per transa
+ction = 170.97
+Enter your hashing criteria:3
+ Alice has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0
+    1
+    2
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Bob has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Charlie has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+David has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7        David                4        135         524.76
+    8
+    9
+   10
+***************************************************************************
+Eve has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3          Eve                4        123         267.60
+    4        Alice                4         78         299.22
+    5
+    6
+    7        David                4        135         524.76
+    8
+    9
+   10
+***************************************************************************
+Ash has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Aissen has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Jack has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1         Jack                5         16         529.84
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Kale has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1         Jack                5         16         529.84
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6         Kale                5         16         854.84
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:3
+Goodbye!
+
+Test for search and display:
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:1
+ Enter the customer's name:Ash
+ Information for customer Ash:
+        Number of transactions = 5
+        Items purchased = 11
+        Total Amount Paid = 517.89
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:1
+ Enter the customer's name:Eve
+ Information for customer Eve:
+        Number of transactions = 4
+        Items purchased = 123
+        Total Amount Paid = 267.60
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:1
+ Enter the customer's name:John
+ User does not exist in the table!
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:2
+ ***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1         Jack                5         16         529.84
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6         Kale                5         16         854.84
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:3
+Goodbye!
+
+Full run:
+There are 9 unique customers
+List of customers:
+Name: Alice, number of transactions = 4, number of items = 78, total amount paid = 299.22, average amount paid per trans
+action = 74.80
+Name: Bob, number of transactions = 4, number of items = 51, total amount paid = 113.52, average amount paid per transac
+tion = 28.38
+Name: Charlie, number of transactions = 4, number of items = 81, total amount paid = 181.98, average amount paid per tra
+nsaction = 45.50
+Name: David, number of transactions = 4, number of items = 135, total amount paid = 524.76, average amount paid per tran
+saction = 131.19
+Name: Eve, number of transactions = 4, number of items = 123, total amount paid = 267.60, average amount paid per transa
+ction = 66.90
+Name: Ash, number of transactions = 5, number of items = 11, total amount paid = 517.89, average amount paid per transac
+tion = 103.58
+Name: Aissen, number of transactions = 5, number of items = 20, total amount paid = 1354.80, average amount paid per tra
+nsaction = 270.96
+Name: Jack, number of transactions = 5, number of items = 16, total amount paid = 529.84, average amount paid per transa
+ction = 105.97
+Name: Kale, number of transactions = 5, number of items = 16, total amount paid = 854.84, average amount paid per transa
+ction = 170.97
+Enter your hashing criteria:3
+ Alice has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0
+    1
+    2
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Bob has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+Charlie has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7
+    8
+    9
+   10
+***************************************************************************
+David has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7        David                4        135         524.76
+    8
+    9
+   10
+***************************************************************************
+Eve has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3          Eve                4        123         267.60
+    4        Alice                4         78         299.22
+    5
+    6
+    7        David                4        135         524.76
+    8
+    9
+   10
+***************************************************************************
+Ash has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Aissen has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Jack has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1         Jack                5         16         529.84
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Kale has been added to the table, the hash table now can be seen below:
+***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1         Jack                5         16         529.84
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6         Kale                5         16         854.84
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:1
+ Enter the customer's name:Ash
+ Information for customer Ash:
+        Number of transactions = 5
+        Items purchased = 11
+        Total Amount Paid = 517.89
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:1
+ Enter the customer's name:Eve
+ Information for customer Eve:
+        Number of transactions = 4
+        Items purchased = 123
+        Total Amount Paid = 267.60
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:1
+ Enter the customer's name:John
+ User does not exist in the table!
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:2
+ ***************************************************************************
+Index         Name     Transactions      Items    Paid_Amount
+    0          Bob                4         51         113.52
+    1         Jack                5         16         529.84
+    2      Charlie                4         81         181.98
+    3
+    4        Alice                4         78         299.22
+    5
+    6         Kale                5         16         854.84
+    7          Eve                4        123         267.60
+    8
+    9
+   10
+   11
+   12
+   13       Aissen                5         20        1354.80
+   14        David                4        135         524.76
+   15
+   16
+   17
+   18
+   19
+   20
+   21          Ash                5         11         517.89
+   22
+***************************************************************************
+Please choose one of the following options:
+(1) Search a customer
+(2) Display hashtable
+(3) Exit
+
+Command:3
+Goodbye!
